@@ -6,7 +6,7 @@ provider "aws" {
 
 terraform {
   backend "s3" {
-    bucket = "lzonestate"
+    bucket = "mybucket"
     key = "project_ec2/terraform.tfstate.d"
     region = "ap-southeast-3"
   }
